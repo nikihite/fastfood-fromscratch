@@ -8,6 +8,6 @@ export default function SideDropDown({ setSideId }) {
   return <select onChange={handleChange}>
     <option value='1'>Magic Muffin</option>
     <option value='2'>Birthday Cake</option>
-    <option value='3'>Brocolli and Carrots on Ice Cream</option>
+    <option value='3'>Brocolli and Brussels Sprout Sundae</option>
   </select>;
 }

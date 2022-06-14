@@ -17,7 +17,7 @@ export default function InstructionForm({ setExtraInstructions, extraInstruction
 
   return <form onSubmit={handleSubmit}>
     <label>
-          New Instruction
+          Any Special Instructions?
       <input required value={instructionInForm} onChange={handleInstructionChange} />
     </label>
     <button> Add Instruction</button>
