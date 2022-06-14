@@ -18,6 +18,12 @@
   height: 150px;
 }
 
+.image-display {
+  background-color: rgba(67, 51, 51, 0.625);
+  margin: 15px;
+  border: ridge 3px rgba(67, 51, 51, 0.625);
+}
+
 .name-input {
   display: flex;
   flex-direction: column;
@@ -32,14 +38,18 @@ h3 {
 input {
   width: 200px;
   height: 30px;
+  border-bottom: 1px solid black;
+  background-color: rgba(127, 255, 212, 0.573);
 }
 
 .order-name1 {
   display: flex;
   flex-direction: column;
   color: rgb(0, 255, 208);
-  background-color: rgba(128, 128, 128, 0.701);
+  background-color: rgba(67, 51, 51, 0.625);
+  border: ridge 3px rgba(67, 51, 51, 0.625);
   width: 40%;
+  margin: 15px;
 }
 
 select {
@@ -47,6 +57,9 @@ select {
   width: 200px;
   font-size: 20px;
   font-family: 'Henny Penny', cursive;
+  border-bottom: 1px solid black;
+  background-color: rgba(127, 255, 212, 0.573);
+  text-align: center;
 }
 
 img {
@@ -63,6 +76,12 @@ button {
   width: 180px;
   font-family: 'Henny Penny', cursive;
   font-size: 20px;
+  border-bottom: 1px solid black;
+  background-color: rgba(127, 255, 212, 0.573);
+}
+
+button:hover {
+  background-color: rgba(255, 0, 255, 0.667);
 }
 
 label {
@@ -90,4 +109,21 @@ label {
 h1 {
   padding: 10px;
   color: rgb(218, 136, 48);
+}
+
+.order-form {
+  background-color: rgba(67, 51, 51, 0.625);
+  border: ridge 3px rgba(67, 51, 51, 0.625);
+}
+
+.instructions-list {
+  background-color: rgba(67, 51, 51, 0.625);
+  border: ridge 3px rgba(67, 51, 51, 0.625);
+  margin: 15px;
+  color: magenta;
+}
+
+li {
+  font-size: 30px;
+  list-style: none;
 }
